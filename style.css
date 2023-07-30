@@ -180,3 +180,26 @@
     color: #484646; /* Change this to a suitable color that contrasts well with the overlay */
     z-index: 2;
   }
+
+    @media screen and (max-width: 768px) {
+    /* Example media query for devices with a maximum width of 768px */
+    .appbar {
+        flex-direction: column;
+    }
+
+    .appbar-list {
+        margin-right: 0;
+    }
+
+    .appbar-item {
+        margin-bottom: 10px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .tile-container{
+        flex-direction: column;
+    }
+}
