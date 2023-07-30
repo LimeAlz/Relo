@@ -181,25 +181,50 @@
     z-index: 2;
   }
 
-    @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /* Example media query for devices with a maximum width of 768px */
     .appbar {
         flex-direction: column;
     }
 
     .appbar-list {
-        margin-right: 0;
+        display: none;
     }
 
     .appbar-item {
         margin-bottom: 10px;
     }
 
+    .hero .slogan{
+        text-align: center;
+    }
+    .hero .p-text{
+        text-align: left;
+    }
+
     .hero-content {
         flex-direction: column;
     }
 
+    .contact-panel{
+        padding:20px;
+        text-align: center;
+    }
+
+    .content-1{
+        height: auto;
+    }
+
+    .tile{
+        width: 50vw;
+    }
     .tile-container{
         flex-direction: column;
+        height:auto;
     }
+
+    .tile-grouper{
+        margin-bottom: 20px;
+    }
+
 }
