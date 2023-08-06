@@ -149,7 +149,7 @@
 }
 
 .t1 {
-  background-image: url(!/img/peace.jpg);
+  background-image: url(../img/peace.jpg);
   background-position: center;
   background-color: rgba(193, 190, 190, 0.5);
   background-size: cover;
@@ -157,7 +157,7 @@
 }
 
 .t2 {
-  background-image: url(~/img/staff.jpg);
+  background-image: url(../img/staff.jpg);
   background-position: initial;
   background-color: rgba(193, 190, 190, 0.5);
   background-size: cover;
@@ -165,7 +165,7 @@
 }
 
 .t3 {
-  background-image: url(~/img/tech.jpg);
+  background-image: url(../img/tech.jpg);
   background-position: center;
   background-color: rgb(255, 255, 255);
   background-size: contain;
@@ -173,7 +173,7 @@
 }
 
 .t4 {
-  background-image: url(~/img/support.jpg);
+  background-image: url(../img/support.jpg);
   background-position: center;
   background-color: rgb(255, 255, 255);
   background-size: cover;
@@ -225,7 +225,7 @@
   flex: 1;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 48px;
-  background-image: url("~/relo/img/comprehesive.png");
+  background-image: url("../img/comprehensive.png");
   background-repeat: no-repeat;
   background-size: cover;
   border: solid black 3px;
