@@ -31,19 +31,19 @@
   }
   
   .t1 {
-    @include tile(url(img/peace.jpg), center, rgba(193, 190, 190, 0.5), cover, no-repeat);
+    @include tile(url(!/img/peace.jpg), center, rgba(193, 190, 190, 0.5), cover, no-repeat);
   }
   
   .t2 {
-    @include tile(url(img/staff.jpg), initial, rgba(193, 190, 190, 0.5), cover, no-repeat);
+    @include tile(url(~/img/staff.jpg), initial, rgba(193, 190, 190, 0.5), cover, no-repeat);
   }
   
   .t3 {
-    @include tile(url(img/tech.jpg), center, rgb(255, 255, 255), contain, no-repeat);
+    @include tile(url(~/img/tech.jpg), center, rgb(255, 255, 255), contain, no-repeat);
   }
   
   .t4 {
-    @include tile(url(img/support.jpg), center, rgb(255, 255, 255), cover, no-repeat);
+    @include tile(url(~/img/support.jpg), center, rgb(255, 255, 255), cover, no-repeat);
   }
   
   .tile-overlay {
