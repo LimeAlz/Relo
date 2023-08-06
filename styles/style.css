@@ -1,0 +1,313 @@
+.appbar {
+  height: 10vh;
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.appbar-title {
+  font-size: 37px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(30, 31, 32);
+}
+
+.appbar-logo {
+  height: auto;
+  width: 55px;
+}
+
+.appbar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-right: 25px;
+}
+.appbar-list li a {
+  text-decoration: none;
+  color: rgb(30, 31, 32);
+}
+
+.appbar-item {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(30, 31, 32);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+  padding: 0px 15px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: default;
+  height: 75vh;
+}
+
+.hero-img {
+  flex: 1;
+}
+
+.slogan {
+  font-size: 37px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(30, 31, 32);
+}
+
+.p-text {
+  font-size: 18px;
+  font-family: "Franklin Gothic Thin", "Arial Narrow", Arial, sans-serif;
+  font-weight: 200;
+  color: rgb(30, 31, 32);
+}
+
+.hero-btn {
+  border: none;
+  color: aliceblue;
+  background-color: rgb(113, 212, 255);
+  border-radius: 12px;
+  font-size: 15px;
+  font-family: "Franklin Gothic Thin", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 15px;
+}
+
+.hero-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-panel {
+  background-color: rgb(113, 212, 255);
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+}
+
+.content-1 {
+  padding: 25px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.tile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+.tile-container .tile {
+  height: 50vh;
+  width: 15vw;
+  border: 2px solid black;
+  border-radius: 7px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Franklin Gothic Thin", "Arial Narrow", Arial, sans-serif;
+}
+.tile-container .tile-grouper {
+  padding-bottom: 15px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+  font-family: "Franklin Gothic Thin", "Arial Narrow", Arial, sans-serif;
+}
+
+.t1 {
+  background-image: url(/img/peace.jpg);
+  background-position: center;
+  background-color: rgba(193, 190, 190, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.t2 {
+  background-image: url(/img/staff.jpg);
+  background-position: initial;
+  background-color: rgba(193, 190, 190, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.t3 {
+  background-image: url(/img/tech.jpg);
+  background-position: center;
+  background-color: rgb(255, 255, 255);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.t4 {
+  background-image: url(/img/support.jpg);
+  background-position: center;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tile-overlay {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.715); /* Change the opacity (last value) to control the darkness of the overlay */
+  z-index: 1;
+  border-radius: 7px;
+}
+.tile-overlay .tile {
+  color: #484646; /* Change this to a suitable color that contrasts well with the overlay */
+  z-index: 2;
+}
+
+.services {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 50px;
+}
+
+.service-type {
+  gap: 50px;
+}
+
+.program {
+  font-size: 28px;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.program-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex: 1;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 48px;
+  background-image: url("/img/comprehensive.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid black 3px;
+  text-align: center;
+}
+
+.program-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 0px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-family: "Franklin Gothic Thin", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Example media query for devices with a maximum width of 768px */
+  .appbar {
+    flex-direction: column;
+  }
+  .appbar-list {
+    display: none;
+  }
+  .appbar-item {
+    margin-bottom: 10px;
+  }
+  .hero .slogan {
+    text-align: center;
+  }
+  .hero .p-text {
+    text-align: left;
+  }
+  .hero-content {
+    flex-direction: column;
+  }
+  .tile-container {
+    flex-direction: column;
+    width: 50vw;
+  }
+  .contact-panel {
+    padding: 20px;
+    text-align: center;
+  }
+  .content-1 {
+    height: auto;
+  }
+  .tile-grouper {
+    width: 50vw;
+  }
+  .tile {
+    width: 50vw;
+  }
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+  .service-type {
+    flex-direction: column;
+    font-family: "Franklin Gothic Thin", "Arial Narrow", Arial, sans-serif;
+  }
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .program-name {
+    display: none;
+  }
+  .program-description {
+    flex: 1;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

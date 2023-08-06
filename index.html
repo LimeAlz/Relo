@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relo</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
@@ -15,16 +15,12 @@
             <img src="img/logo.png" alt="company logo" class="appbar-logo">
             <div class="appbar-title">Re-lo</div>
         </div>
-
-        <ul class="appbar-list">
             <ul class="appbar-list">
                 <li class="appbar-item"><a href="index.html">Home</a></li>
-                <li class="appbar-item"><a href="services.html">Services</a></li>
-                <li class="appbar-item"><a href="about.html">About</a></li>
+                <li class="appbar-item"><a href="#ser">Services</a></li>
+                <li class="appbar-item"><a href="#abt">About</a></li>
                 <li class="appbar-item"><a href="contact.html">Contact</a></li>
             </ul>
-            
-        </ul>
     </div>
     <div class="body">
         <div class="hero-content">
@@ -41,7 +37,7 @@
         <div class="contact-panel">
             Contact Us at 04-12345678
         </div>
-        <div class="content-1">
+        <div class="content-1" id="abt">
             <h2 class="slogan">Why Choose Us?</h2>
             <div class="p-text">We are a global relocation services provider, adept at delivering smooth and efficient relocations worldwide. Your company's assets are handled with utmost care during transport, and we take pride in promoting your brand's identity at the new location. Trust our experience and customer-focused approach for a hassle-free relocation experience.Count on us to make your relocation experience seamless and stress-free, while we take care of your assets and promote your brand's identity at the new location.</div>
             <div class="tile-container">
@@ -69,9 +65,26 @@
             </div>
 
         </div>
+        <div class="services" id="ser">
+            <div class="slogan">Our Services</div>
+            <ul class="service-type appbar-list">
+                <li class="program appbar-item" id="compser">Comprehensive Package</li>
+                <li class="program appbar-item" id="reloser">Relocation Solution</li>
+                <li class="program appbar-item" id="promoser">Business Promotion</li>
+            </ul>
+            <div class="showcase">
+                <div class="program-name" id="serimg"></div>
+                <div class="program-description">
+                    <h3 class="slogan" id="serslogan">Comprehensive Package</h3>
+                    <p id="serdes"> Our Comprehensive Service offers a hassle-free and seamless relocation experience, combining both moving and promotion aspects. Whether you're looking to move your business to a new location or want to boost your brand's visibility, our experts handle everything for you. From logistics and transportation to marketing and promotional strategies, we've got you covered, ensuring a smooth transition and maximum exposure for your business.</p>
+                    <button class="hero-btn">Book Now</button>
+                   </div>
+            </div>
+        </div>
 
     </div>
     <div class="footer"></div>
+    <script src="script.js"></script>
 </body>
 
 </html>

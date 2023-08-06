@@ -1,0 +1,43 @@
+.services{
+    height: 100vh;
+    @include flex(column,start,center);
+    gap:50px;
+}
+
+.service-type{
+    gap:50px;
+
+}
+
+.program{
+    font-size: 28px;
+}
+
+.showcase{
+    @include flex(row,center,center);
+    height:70vh;
+}
+
+.program-name{
+    @include flex(row,center,center);
+    height:70vh;
+    flex: 1;
+    font-family: $title_font;
+    font-size:  48px;
+    background-image: url("/img/comprehensive.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid black 3px;
+    text-align: center;
+
+}
+
+.program-description{
+    @include flex(column,center,center);
+    gap: 50px;
+    padding:0px 50px 0px 50px;
+    @include flex(column,center,center);
+    flex: 1;
+    font-family: $text_font ;
+    font-size: 18px;
+}

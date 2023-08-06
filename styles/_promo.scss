@@ -1,0 +1,59 @@
+.content-1 {
+    padding: 25px; 
+    height: 100vh;
+    @include flex(column, center, center);
+    gap: 25px;
+  }
+  
+  .tile-container {
+    @include flex(row, space-evenly, center);
+    gap: 50px;
+  
+    .tile {
+      height: 50vh;
+      width: 15vw;
+      border: 2px solid black;
+      border-radius: 7px;
+      font-size: 20px;
+      @include flex(center, center, center);
+      text-align: center;
+      font-family: $text_font;
+    }
+  
+    .tile-grouper {
+      padding-bottom: 15px;
+      font-size: 20px;
+      @include flex(column, center, center);
+      gap: 25px;
+      text-align: center;
+      font-family: $text_font;
+    }
+  }
+  
+  .t1 {
+    @include tile(url(/img/peace.jpg), center, rgba(193, 190, 190, 0.5), cover, no-repeat);
+  }
+  
+  .t2 {
+    @include tile(url(/img/staff.jpg), initial, rgba(193, 190, 190, 0.5), cover, no-repeat);
+  }
+  
+  .t3 {
+    @include tile(url(/img/tech.jpg), center, rgb(255, 255, 255), contain, no-repeat);
+  }
+  
+  .t4 {
+    @include tile(url(/img/support.jpg), center, rgb(255, 255, 255), cover, no-repeat);
+  }
+  
+  .tile-overlay {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.715); /* Change the opacity (last value) to control the darkness of the overlay */
+    z-index: 1;
+    border-radius: 7px;
+  
+    .tile {
+      color: #484646; /* Change this to a suitable color that contrasts well with the overlay */
+      z-index: 2;
+    }
+  }

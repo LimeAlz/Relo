@@ -1,0 +1,43 @@
+.hero {
+    @include flex(column, center, center);
+    gap: 30px;
+    flex: 1;
+    padding: 0px 15px;
+  }
+  
+  .hero-content{
+      @include flex(row,space-evenly,default);
+      height: 75vh;
+    }
+  
+  .hero-img {
+      flex: 1;
+    }
+  
+    .slogan {
+      font-size: 37px;
+      font-family: $title_font;
+      color: $text_color;
+    }
+  
+    .p-text {
+      font-size: 18px;
+      font-family: $text_font;
+      font-weight: 200;
+      color: $text_color;
+    }
+  
+    .hero-btn {
+      border: none;
+      color: $alt_text_color;
+      background-color: $primary_color;
+      border-radius: 12px;
+      font-size: 15px;
+      font-family: $text_font;
+      padding: 10px 15px;
+    }
+  
+  .hero-group {
+    @include flex(column, space-around, center);
+    gap: 15px;
+  }

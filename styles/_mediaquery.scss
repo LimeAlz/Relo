@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px) {
+    /* Example media query for devices with a maximum width of 768px */
+    .appbar {
+      flex-direction: column;
+    }
+  
+    .appbar-list {
+      display: none;
+    }
+  
+    .appbar-item {
+      margin-bottom: 10px;
+    }
+  
+    .hero .slogan {
+      text-align: center;
+    }
+  
+    .hero .p-text {
+      text-align: left;
+    }
+  
+    .hero-content {
+      flex-direction: column;
+    }
+
+    .tile-container{
+      flex-direction: column;
+      width: 50vw;
+    }
+  
+    .contact-panel {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .content-1 {
+      height: auto;
+    }
+
+    .tile-grouper{
+      width: 50vw;
+    }
+  
+    .tile {
+      width: 50vw;
+    }
+
+    .services {
+      @include flex(column, start, center);
+      gap: 20px;
+    }
+  
+    .service-type {
+      flex-direction: column;
+      font-family: $text_font;
+    }
+  
+    .showcase {
+      @include flex(column, center, center);
+      height: auto;
+    }
+  
+    .program-name {
+      display: none;
+    }
+  
+    .program-description {
+      flex: 1;
+      text-align: center;
+    }
+  }
+  

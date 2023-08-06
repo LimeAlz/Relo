@@ -1,0 +1,14 @@
+@mixin flex($direction,$justify,$align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin tile($image,$position,$color,$size,$repeat){
+    background-image: $image;
+    background-position:$position;
+    background-color: $color;
+    background-size: $size;
+    background-repeat: $repeat;
+}
