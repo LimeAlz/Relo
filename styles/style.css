@@ -225,7 +225,7 @@
   flex: 1;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 48px;
-  background-image: url("../img/comprehensive.png");
+  background-image: url(../img/comprehensive.png);
   background-repeat: no-repeat;
   background-size: cover;
   border: solid black 3px;
